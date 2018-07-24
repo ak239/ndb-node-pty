@@ -1,16 +1,14 @@
 {
-  "name": "node-pty",
-  "description": "Fork pseudoterminals in Node.JS",
-  "author": {
-    "name": "Daniel Imms"
-  },
+  "name": "ndb-node-pty",
+  "description": "Fork node-pty",
+  "author": { "name": "Aleksey Kozyatinskiy" },
   "version": "0.7.6",
   "license": "MIT",
   "main": "./lib/index.js",
   "types": "./typings/node-pty.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Tyriar/node-pty.git"
+  "repository": "github:ak239/ndb-node-pty",
+  "engines": {
+    "node": ">=8.0.0"
   },
   "files": [
     "binding.gyp",
@@ -18,12 +16,10 @@
     "scripts/",
     "src/",
     "deps/",
-    "typings/"
+    "typings/",
+    "bin/"
   ],
-  "homepage": "https://github.com/Tyriar/node-pty",
-  "bugs": {
-    "url": "https://github.com/Tyriar/node-pty/issues"
-  },
+  "homepage": "https://github.com/ak239/ndb-node-pty#readme",
   "keywords": [
     "pty",
     "tty",
@@ -41,6 +37,8 @@
     "prepublish": "npm run tsc"
   },
   "dependencies": {
+    "decompress": "^4.2.0",
+    "decompress-targz": "^4.1.1",
     "nan": "2.10.0"
   },
   "devDependencies": {
