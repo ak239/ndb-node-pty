@@ -1,6 +1,8 @@
-# node-pty
+# ndb-node-pty
 
-[![Build status](https://tyriar.visualstudio.com/_apis/public/build/definitions/2d361770-e039-4acc-b2b2-ef8396473589/1/badge)](https://tyriar.visualstudio.com/node-pty/_build/index?definitionId=1)
+Note: this repository is [node-pty](https://github.com/Microsoft/node-pty) fork with two changes:
+- prebuilt binaries for Node 8, Node 9 and Node 10 are shipped as part of package,
+- install script first try to lookup prebuilt binary before building.
 
 `forkpty(3)` bindings for node.js. This allows you to fork processes with pseudoterminal file descriptors. It returns a terminal object which allows reads and writes.
 
