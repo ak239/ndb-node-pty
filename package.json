@@ -1,8 +1,10 @@
 {
   "name": "ndb-node-pty-prebuilt",
   "description": "Fork node-pty",
-  "author": { "name": "Aleksey Kozyatinskiy" },
-  "version": "0.7.7",
+  "author": {
+    "name": "Aleksey Kozyatinskiy"
+  },
+  "version": "0.8.0",
   "license": "MIT",
   "main": "./lib/index.js",
   "types": "./typings/node-pty.d.ts",
