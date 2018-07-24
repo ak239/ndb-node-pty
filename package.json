@@ -1,5 +1,5 @@
 {
-  "name": "ndb-node-pty",
+  "name": "ndb-node-pty-prebuilt",
   "description": "Fork node-pty",
   "author": { "name": "Aleksey Kozyatinskiy" },
   "version": "0.7.6",
